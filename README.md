@@ -8,7 +8,7 @@ Folder: LittleBigMod_2nd: Second try of the theme
 The newest versions in the master branch are:
 
 LittleBigMod    : v1.5 for Gnome 3.4.x
-LittleBigMod_2nd: v1.5 for Gnome 3.4.x
+LittleBigMod_2nd: v1.6 for Gnome 3.6.x
 
 Changing the branches you can switch to themes 
 created for older versions of the gnome-shell.
