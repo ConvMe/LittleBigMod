@@ -1,6 +1,6 @@
 LittleBigMod
 ============
-
+<pre>
 Folder:            Fonts: Theme-specific fonts
 Folder:     LittleBigMod: First try of the theme
 Folder: LittleBigMod_2nd: Second try of the theme
@@ -14,3 +14,4 @@ Changing the branches you can switch to themes
 created for older versions of the gnome-shell.
 
 Licence: LGPL
+</pre>
