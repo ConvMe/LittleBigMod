@@ -753,14 +753,15 @@ StScrollBar StButton#vhandle:active {
 .workspace-controls {
     visible-width: 1.6em; /* Amount visible before hovering */
     padding: 0.3em 0px 1em 1.6em; /*23px;*/
-    background-image: url("hand-ltr.svg");
-    background-size: contain;
-    background-position: top top;
+    /*background-image: url("hand-ltr.svg");
+    background-size: contain;*/
+    border-image: url("hand-ltr.svg") 60 0 0 100;
 }
 
 .workspace-controls:rtl {
     padding: 0.3em 23px 1em 0px;
-    background-image: url("hand-rtl.svg");
+    /*background-image: url("hand-rtl.svg");*/
+    border-image: url("hand-rtl.svg") 0 60 0 100;
 }
 
 .workspace-thumbnails-background {
@@ -1628,20 +1629,19 @@ StScrollBar StButton#vhandle:active {
     background-repeat: repeat;
     border-top: 19px;
     border-image: url("./borders/round_border_top.svg") 21 11;
-    height: 52px !important;
+    height: 53px !important;
     transition-duration: 250;
 }
 
 
 #message-tray:keyboard {
-    /* Same as the OSK */
     background: none;
+    border-image: url("./borders/round_border.svg") 11 11;
+    transition-duration: 250;
 }
 
 #message-tray:overview {
     background: none;
-    /*background: rgba(0, 0, 0, 0.1);
-    outline: 1px solid rgba(128, 128, 128, 0.3);*/
 }
 
 .notification {
@@ -2116,6 +2116,14 @@ StScrollBar StButton#vhandle:active {
     background-color: rgba(255,255,255,0.33);
     border-color: rgb(64, 64, 64);
     box-shadow: inset 0px 1px 15px 0px rgb(0, 0, 0);
+}
+
+#message-tray:keyboard .summary-source-button:hover .summary-source,
+#message-tray:keyboard .summary-source-button:focus .summary-source,
+#message-tray:keyboard .summary-source-button:selected .summary-source {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: inset 0px 1px 15px 0px transparent;
 }
 
 .summary-source {
