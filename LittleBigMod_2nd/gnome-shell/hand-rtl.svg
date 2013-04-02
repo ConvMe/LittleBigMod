@@ -10,7 +10,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    width="60"
-   height="100"
+   height="200"
    id="svg25070">
   <metadata
      id="metadata3353">
@@ -158,14 +158,14 @@
        color-interpolation-filters="sRGB"
        id="filter24765">
       <feColorMatrix
-         result="fbSourceGraphic"
-         values="1"
+         id="feColorMatrix24767"
          type="saturate"
-         id="feColorMatrix24767" />
+         values="1"
+         result="fbSourceGraphic" />
       <feColorMatrix
-         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"
+         id="feColorMatrix24769"
          in="fbSourceGraphic"
-         id="feColorMatrix24769" />
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" />
     </filter>
     <linearGradient
        x1="-74.520325"
@@ -244,14 +244,14 @@
        color-interpolation-filters="sRGB"
        id="filter25011">
       <feColorMatrix
-         result="fbSourceGraphic"
-         values="1"
+         id="feColorMatrix25013"
          type="saturate"
-         id="feColorMatrix25013" />
+         values="1"
+         result="fbSourceGraphic" />
       <feColorMatrix
-         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"
+         id="feColorMatrix25015"
          in="fbSourceGraphic"
-         id="feColorMatrix25015" />
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" />
     </filter>
     <radialGradient
        cx="-33.412369"
@@ -290,14 +290,14 @@
        color-interpolation-filters="sRGB"
        id="filter25023">
       <feColorMatrix
-         result="fbSourceGraphic"
-         values="1"
+         id="feColorMatrix25025"
          type="saturate"
-         id="feColorMatrix25025" />
+         values="1"
+         result="fbSourceGraphic" />
       <feColorMatrix
-         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"
+         id="feColorMatrix25027"
          in="fbSourceGraphic"
-         id="feColorMatrix25027" />
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" />
     </filter>
     <linearGradient
        x1="-39.858727"
@@ -326,14 +326,14 @@
        color-interpolation-filters="sRGB"
        id="filter25033">
       <feColorMatrix
-         result="fbSourceGraphic"
-         values="1"
+         id="feColorMatrix25035"
          type="saturate"
-         id="feColorMatrix25035" />
+         values="1"
+         result="fbSourceGraphic" />
       <feColorMatrix
-         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"
+         id="feColorMatrix25037"
          in="fbSourceGraphic"
-         id="feColorMatrix25037" />
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" />
     </filter>
     <linearGradient
        x1="-39.858727"
@@ -362,14 +362,14 @@
        color-interpolation-filters="sRGB"
        id="filter25043">
       <feColorMatrix
-         result="fbSourceGraphic"
-         values="1"
+         id="feColorMatrix25045"
          type="saturate"
-         id="feColorMatrix25045" />
+         values="1"
+         result="fbSourceGraphic" />
       <feColorMatrix
-         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"
+         id="feColorMatrix25047"
          in="fbSourceGraphic"
-         id="feColorMatrix25047" />
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" />
     </filter>
     <filter
        x="0"
@@ -379,14 +379,14 @@
        color-interpolation-filters="sRGB"
        id="filter25049">
       <feColorMatrix
-         result="fbSourceGraphic"
-         values="1"
+         id="feColorMatrix25051"
          type="saturate"
-         id="feColorMatrix25051" />
+         values="1"
+         result="fbSourceGraphic" />
       <feColorMatrix
-         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"
+         id="feColorMatrix25053"
          in="fbSourceGraphic"
-         id="feColorMatrix25053" />
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" />
     </filter>
     <filter
        x="0"
@@ -396,14 +396,14 @@
        color-interpolation-filters="sRGB"
        id="filter25055">
       <feColorMatrix
-         result="fbSourceGraphic"
-         values="1"
+         id="feColorMatrix25057"
          type="saturate"
-         id="feColorMatrix25057" />
+         values="1"
+         result="fbSourceGraphic" />
       <feColorMatrix
-         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"
+         id="feColorMatrix25059"
          in="fbSourceGraphic"
-         id="feColorMatrix25059" />
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" />
     </filter>
     <linearGradient
        x1="0.99887019"
@@ -1152,9 +1152,73 @@
        xlink:href="#linearGradient3891-8-9"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(0.0432913,-0.0134993)" />
+    <linearGradient
+       x1="1.25"
+       y1="25.019512"
+       x2="62.459866"
+       y2="25.019512"
+       id="linearGradient3184-3-8"
+       xlink:href="#linearGradient3851-0-22-6"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3851-0-22-6">
+      <stop
+         id="stop3853-7-9-3"
+         style="stop-color:#f0f0f0;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop4341-6-3"
+         style="stop-color:#f0f0f0;stop-opacity:1"
+         offset="0.02" />
+      <stop
+         id="stop4327-21-5"
+         style="stop-color:#b9b9b9;stop-opacity:1"
+         offset="0.31999999" />
+      <stop
+         id="stop3855-1-9-9"
+         style="stop-color:#b9b9b9;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="1.25"
+       y1="25.019512"
+       x2="62.459866"
+       y2="25.019512"
+       id="linearGradient3223-3"
+       xlink:href="#linearGradient3891-8-9-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0.0432913,-0.0134993)" />
+    <linearGradient
+       id="linearGradient3891-8-9-4">
+      <stop
+         id="stop3893-5-9-9"
+         style="stop-color:#000000;stop-opacity:0"
+         offset="0" />
+      <stop
+         id="stop4337-5-0"
+         style="stop-color:#000000;stop-opacity:0"
+         offset="0.22" />
+      <stop
+         id="stop4339-9-6"
+         style="stop-color:#000000;stop-opacity:0.60000002"
+         offset="0.51999998" />
+      <stop
+         id="stop3895-7-8-3"
+         style="stop-color:#000000;stop-opacity:0.60000002"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="1.25"
+       y1="25.019512"
+       x2="62.459866"
+       y2="25.019512"
+       id="linearGradient3217"
+       xlink:href="#linearGradient3891-8-9-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0.0432913,-0.0134993)" />
   </defs>
   <g
-     transform="matrix(-0.9285407,0,0,0.9285407,60.696406,3.24111)"
+     transform="matrix(-0.9285407,0,0,0.9285407,60.696406,103.24111)"
      id="g3188-4">
     <path
        d="M 31.232016,0.25458316 C 36.924209,0.2472237 42.603183,6.3472045 47.785006,9.188 53.516421,12.330094 62.483709,8.1660937 62.459822,25.430452 62.435932,42.69481 53.62609,39.038671 47.774805,41.826 c -5.171622,2.463564 -11.022693,7.699766 -16.542821,7.959417 -3.902305,0.183553 -8.917462,-0.04191 -8.917462,-0.04191 0,0 -21.064522,0.09848 -21.064522,-24.787356 0,-24.88583835 21.063932,-24.7022845 21.063932,-24.7022845 0,0 4.97838,0.00581 8.918084,7.1666e-4 z"
@@ -1164,5 +1228,17 @@
        d="M 31.275307,0.2410839 C 36.9675,0.2337239 42.646474,6.3337052 47.828297,9.1745007 53.559712,12.316594 62.527,8.1525944 62.503113,25.416952 62.479223,42.68131 53.669381,39.025171 47.818096,41.8125 c -5.171622,2.463564 -11.022693,7.699766 -16.542821,7.959417 -3.902305,0.183553 -8.917462,-0.04191 -8.917462,-0.04191 0,0 -21.0645217,0.09848 -21.0645217,-24.787356 0,-24.8858376 21.0639317,-24.7022838 21.0639317,-24.7022838 0,0 4.97838,0.00581 8.918084,7.167e-4 z"
        id="rect3992-7-2-3"
        style="opacity:0.4;fill:url(#linearGradient3223);fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.50196078" />
+  </g>
+  <g
+     transform="matrix(-0.9285407,0,0,0.9285407,60.696406,50.241116)"
+     id="g3188-4-4">
+    <path
+       d="M 31.232016,0.25458316 C 36.924209,0.2472237 42.603183,6.3472045 47.785006,9.188 53.516421,12.330094 62.483709,8.1660937 62.459822,25.430452 62.435932,42.69481 53.62609,39.038671 47.774805,41.826 c -5.171622,2.463564 -11.022693,7.699766 -16.542821,7.959417 -3.902305,0.183553 -8.917462,-0.04191 -8.917462,-0.04191 0,0 -21.064522,0.09848 -21.064522,-24.787356 0,-24.88583835 21.063932,-24.7022845 21.063932,-24.7022845 0,0 4.97838,0.00581 8.918084,7.1666e-4 z"
+       id="rect3992-7-0-3"
+       style="fill:url(#linearGradient3184-3-8);fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.50196078" />
+    <path
+       d="M 31.275307,0.2410839 C 36.9675,0.2337239 42.646474,6.3337052 47.828297,9.1745007 53.559712,12.316594 62.527,8.1525944 62.503113,25.416952 62.479223,42.68131 53.669381,39.025171 47.818096,41.8125 c -5.171622,2.463564 -11.022693,7.699766 -16.542821,7.959417 -3.902305,0.183553 -8.917462,-0.04191 -8.917462,-0.04191 0,0 -21.0645217,0.09848 -21.0645217,-24.787356 0,-24.8858376 21.0639317,-24.7022838 21.0639317,-24.7022838 0,0 4.97838,0.00581 8.918084,7.167e-4 z"
+       id="rect3992-7-2-3-2"
+       style="opacity:0.4;fill:url(#linearGradient3217);fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.50196078" />
   </g>
 </svg>

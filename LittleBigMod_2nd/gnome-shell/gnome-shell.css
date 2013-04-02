@@ -755,13 +755,13 @@ StScrollBar StButton#vhandle:active {
     padding: 0.3em 0px 1em 1.6em; /*23px;*/
     /*background-image: url("hand-ltr.svg");
     background-size: contain;*/
-    border-image: url("hand-ltr.svg") 60 0 0 100;
+    border-image: url("hand-ltr.svg") 60 0 100 100;
 }
 
 .workspace-controls:rtl {
     padding: 0.3em 23px 1em 0px;
     /*background-image: url("hand-rtl.svg");*/
-    border-image: url("hand-rtl.svg") 0 60 0 100;
+    border-image: url("hand-rtl.svg") 0 60 100 100;
 }
 
 .workspace-thumbnails-background {
