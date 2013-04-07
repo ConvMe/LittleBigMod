@@ -224,7 +224,6 @@ StScrollBar StButton#vhandle:active {
 .popup-menu-item {
     padding: .4em 1.75em;
     spacing: 1em;
-    transition-duration: 200;
 }
 
 .popup-menu-item:active {
@@ -313,20 +312,13 @@ StScrollBar StButton#vhandle:active {
     height: 1.5em;
 }
 
-.toggle-switch-us {
-    background-image: url("toggle-off-us.svg");
-    background-size: contain;
-}
-.toggle-switch-us:checked {
-    background-image: url("toggle-on-us.svg");
-    background-size: contain;
-}
-
+.toggle-switch-us,
 .toggle-switch-intl {
     background-image: url("toggle-off-intl.svg");
     background-size: contain;
 }
 
+.toggle-switch-us:checked,
 .toggle-switch-intl:checked {
     background-image: url("toggle-on-intl.svg");
     background-size: contain;
@@ -568,6 +560,9 @@ StScrollBar StButton#vhandle:active {
     padding-left: 4px;
 }
 
+#panelRight {
+}
+
 #panelRight:ltr {
     padding-left: 4px;
 }
@@ -599,7 +594,7 @@ StScrollBar StButton#vhandle:active {
     color: rgba(0,0,0,0.5);
 }
 
-.panel-button {
+.panel-button #appMenuIcon {
     app-icon-bottom-clip: 1px;
 }
 
@@ -613,6 +608,11 @@ StScrollBar StButton#vhandle:active {
 .panel-button:checked #appMenuIcon,
 .panel-button:focus #appMenuIcon {
     app-icon-bottom-clip: 2px; 
+}
+
+.app-menu-icon {
+    /*width: 24px;
+    height: 24px;*/
 }
 
 .panel-button {
@@ -743,7 +743,7 @@ StScrollBar StButton#vhandle:active {
     border-radius: 10px;
     background-image: url("overview.png");
     background-size: cover;
-    spacing: 0.001em; /* 12px; */
+    /*spacing: 0.001em;*/ /* 12px; */
 }
 
 .window-caption {
