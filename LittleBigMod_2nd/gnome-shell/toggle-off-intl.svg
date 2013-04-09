@@ -29,9 +29,9 @@
      inkscape:window-height="873"
      id="namedview101"
      showgrid="false"
-     inkscape:zoom="9.875"
-     inkscape:cx="34.553466"
-     inkscape:cy="7.2695977"
+     inkscape:zoom="13.965359"
+     inkscape:cx="36.385535"
+     inkscape:cy="9.7541506"
      inkscape:window-x="0"
      inkscape:window-y="-1"
      inkscape:window-maximized="1"
@@ -594,7 +594,7 @@
        id="linearGradient3980"
        xlink:href="#linearGradient3974"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0113364,0,0,1.0415078,0.36276773,-0.45658579)" />
+       gradientTransform="matrix(1.0129903,0,0,1.0432344,0.41519675,-0.44057896)" />
     <linearGradient
        x1="-47.452175"
        y1="1.9164428"
@@ -659,15 +659,15 @@
      y="2.0021906"
      transform="scale(-1,1)"
      id="rect4172"
-     style="fill:url(#linearGradient3862);fill-opacity:1;stroke:#777777;stroke-width:0.35;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+     style="fill:url(#linearGradient3862);fill-opacity:1;stroke:#777777;stroke-width:0.3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
   <rect
-     width="61.581791"
-     height="17.320791"
+     width="61.682507"
+     height="17.349506"
      rx="9.6653433"
      ry="8.2987347"
-     x="-62.790894"
-     y="2.3396044"
+     x="-62.841755"
+     y="2.3602467"
      transform="scale(-1,1)"
      id="rect4172-2"
-     style="fill:none;stroke:url(#linearGradient3980);stroke-width:0.35;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+     style="fill:none;stroke:url(#linearGradient3980);stroke-width:0.30049402;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
 </svg>

@@ -796,8 +796,8 @@ StScrollBar StButton#vhandle:active {
     -shell-caption-spacing: 2px;
 }
 
-.window-close, .notification-close {
-    background-image: url("close-window.svg");
+.window-close,
+.notification-close {
     background-size: 30px; /*34px;*/
     height: 30px;
     width: 30px;
@@ -806,6 +806,7 @@ StScrollBar StButton#vhandle:active {
 
 
 .window-close {
+    background-image: url("close-window.svg");
     -shell-close-overlap: 17px;
 }
 
@@ -818,13 +819,14 @@ StScrollBar StButton#vhandle:active {
      * adjust left 2px
      * adjust down 8px */
 
+    /*
     -shell-close-overlap-x: 2px;
     -shell-close-overlap-y: 8px;
+    */
 }
 
 .summary-boxpointer .notification-close {
     background-image: url("close-wwindow.svg");
-
     -shell-close-overlap-x: 11px;
     -shell-close-overlap-y: 11px;
 }
@@ -834,9 +836,7 @@ StScrollBar StButton#vhandle:active {
 }
 
 .window-close:active,
-.window-close:hover,
-.notification-close:active,
-.notification-close:hover {
+.window-close:hover {
     background-image: url("close-window-active.svg");
     transition-duration: 150;
 }
@@ -1672,8 +1672,8 @@ StScrollBar StButton#vhandle:active {
 .notification-unexpanded {
     /* We want to force the actor at a specific size, irrespective
        of its minimum and preferred size, so we override both */
-    min-height: 30px;
-    height: 30px;
+    min-height: 36px;
+    height: 36px;
 }
 
 /* We use row-span = 2 for the image cell, which prevents its height preferences to be
@@ -1711,17 +1711,20 @@ StScrollBar StButton#vhandle:active {
     box-shadow: inset 0px -1px transparent;   
 }
 
-.summary-notification-stack-scrollview {
-    max-height: 18em;
-    min-width: 200px;
-    padding-left: 0px;
-    
+.summary-notification-stack-scrollview,
+.summary-boxpointer #summary-right-click-menu {
     border: 1px rgb(240, 240, 240);
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.33);
     background-gradient-start: rgb(185, 185, 185);
     background-gradient-end: rgb(240, 240, 240);
     background-gradient-direction: vertical;
+}
+
+.summary-notification-stack-scrollview {
+    max-height: 18em;
+    min-width: 200px;
+    padding-left: 0px;
 }
 
 .summary-boxpointer #summary-right-click-menu {

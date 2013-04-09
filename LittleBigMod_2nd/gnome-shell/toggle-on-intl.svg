@@ -30,8 +30,8 @@
      id="namedview3180"
      showgrid="false"
      inkscape:zoom="27.930718"
-     inkscape:cx="42.124551"
-     inkscape:cy="12.496256"
+     inkscape:cx="34.254618"
+     inkscape:cy="9.620873"
      inkscape:window-x="0"
      inkscape:window-y="-1"
      inkscape:window-maximized="1"
@@ -567,7 +567,7 @@
        id="linearGradient3980"
        xlink:href="#linearGradient3974"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.553619,0,0,1.0492461,-28.183973,-0.54170682)" />
+       gradientTransform="matrix(0.55525181,0,0,1.0523506,-28.131449,-0.55185788)" />
     <linearGradient
        x1="-47.452175"
        y1="1.9164428"
@@ -664,17 +664,17 @@
      y="1.9386362"
      transform="scale(-1,1)"
      id="rect4172"
-     style="fill:url(#linearGradient3862);fill-opacity:1;stroke:#777777;stroke-width:0.35;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+     style="fill:url(#linearGradient3862);fill-opacity:1;stroke:#777777;stroke-width:0.3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
   <rect
-     width="33.71069"
-     height="17.449482"
+     width="33.810116"
+     height="17.501114"
      rx="9.6653433"
      ry="8.2987347"
-     x="-62.755112"
-     y="2.2752588"
+     x="-62.804558"
+     y="2.273443"
      transform="scale(-1,1)"
      id="rect4172-2"
-     style="fill:none;stroke:url(#linearGradient3980);stroke-width:0.35;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+     style="fill:none;stroke:url(#linearGradient3980);stroke-width:0.30088627;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
   <g
      transform="matrix(-1,0,0,1,827.67561,-72.583519)"
      id="text3892-5"
