@@ -28,8 +28,10 @@ LittleBigMod
     <td>v1.6 for Gnome 3.6.x</td>
   </tr>
 </table>
+<h3>Screenshot</h3>
+<p>ToDo</p>
 <h3>Description</h3>
-<p>This is the LittleBigMod, a gnome-shell theme I am working on for a couple of months. You can find further informations and screenshots at http://convme.deviantart.com.</p>
+<p>This is the LittleBigMod, a gnome-shell theme I am working on for a couple of months. You can find further informations and other screenshots at http://convme.deviantart.com.</p>
 <p>The master-branch represents the latest development state for the most common version of the gnome-shell. Themes created for older versions of the gnome-shell can be found by swithcing the branches.</p>
 <h3>License</h3>
 <p>LGPL</p>
