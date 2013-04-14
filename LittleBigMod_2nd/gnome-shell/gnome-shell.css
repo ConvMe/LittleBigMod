@@ -2306,19 +2306,33 @@ StScrollBar StButton#vhandle:active {
     color: rgb(94, 94, 94);
     border: 1px rgb(240, 240, 240);
     border-radius: 14px;
-    background-gradient-start: rgb(185, 185, 185);
+    background-gradient-start: rgb(205, 205, 205);
     background-gradient-end: rgb(240, 240, 240);
     background-gradient-direction: vertical;
     box-shadow: 0px 0px 7px 0px rgba(64, 64, 64, 0.9);
-    padding-right: 42px;
+    /*padding-right: 42px;
     padding-left: 42px;
     padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 30px;*/
+    padding: 0px;
 }
 
-.modal-dialog-button-box {
-    spacing: 21px;
-    padding-top: 30px;
+.modal-dialog > * {
+    /* Padding for all dialogs */
+    padding: 36px 42px 32px;
+}
+
+.modal-dialog-button-box,
+.modal-dialog .modal-dialog-button-box {
+    spacing: 1px;
+    padding: 20px 32px;
+    border-top: 1px rgb(185, 185, 185);
+    background-gradient-start: rgb(205, 205, 205);
+    background-gradient-end: rgb(195, 195, 195);
+    background-gradient-direction: vertical;
+    box-shadow: inset 0px 1px 0px rgb(240, 240, 240);
+    border-radius: 0px 0px 14px 14px;
+
 }
 
 .modal-dialog-button {
@@ -2369,17 +2383,21 @@ StScrollBar StButton#vhandle:active {
 .run-dialog {
     border-radius: 4px;
     color: #666;
-    padding-right: 21px;
+    /*padding-right: 21px;
     padding-left: 21px;
     padding-bottom: 21px;
-    padding-top: 15px;
+    padding-top: 15px;*/
+}
+
+.run-dialog > * {
+    padding: 15px 21px 21px;
 }
 
 .lightbox {
     background-gradient-direction: radial;
-    background-gradient-end: rgba(0, 0, 0, 0.6);
+    background-gradient-end: rgba(0, 0, 0, 0.7);
     background-gradient-start: rgba(0, 0, 0, 0.8);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     /*background-image: url("overview.png");
     background-size: cover;*/
 }
@@ -2392,7 +2410,7 @@ StScrollBar StButton#vhandle:active {
 .end-session-dialog {
     spacing: 0px;
     min-width: 38.5em;
-    padding: 36px 42px 32px;
+    /*padding: 36px 42px 32px;*/
 }
 
 .end-session-dialog-subject {
@@ -2602,12 +2620,17 @@ StScrollBar StButton#vhandle:active {
 .prompt-dialog {
     /* this is the width of the entire modal popup */
     min-width: 38.5em;
-    padding:  36px 42px 32px;
+    /*padding:  36px 42px 32px;*/
+    padding: 0em;
+}
+
+.prompt-dialog > * {
+    padding-bottom: 1em;
 }
 
 .prompt-dialog-main-layout {
-    spacing: 0px;
-    padding: 0px;
+    spacing: 0em;
+    padding: 0em;
 }
 
 .prompt-dialog-message-layout:ltr {
@@ -2636,7 +2659,7 @@ StScrollBar StButton#vhandle:active {
 
 .prompt-dialog-password-box {
     spacing: 0em;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
 }
 
 .prompt-dialog-password-label {
