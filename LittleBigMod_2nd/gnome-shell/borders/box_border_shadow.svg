@@ -175,8 +175,8 @@
        color-interpolation-filters="sRGB"
        id="filter4014">
       <feGaussianBlur
-         stdDeviation="2.91"
-         id="feGaussianBlur4016" />
+         id="feGaussianBlur4016"
+         stdDeviation="2.91" />
     </filter>
     <linearGradient
        x1="28.072033"
@@ -206,6 +206,13 @@
        id="linearGradient4058"
        xlink:href="#linearGradient4052"
        gradientUnits="userSpaceOnUse" />
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter3825">
+      <feGaussianBlur
+         id="feGaussianBlur3827"
+         stdDeviation="1.455" />
+    </filter>
   </defs>
   <metadata
      id="metadata7">
@@ -225,6 +232,7 @@
      y="6"
      width="49"
      height="48"
+     transform="matrix(1.0289477,0,0,1.0289468,-0.66812688,-0.868404)"
      id="image3950"
-     style="filter:url(#filter4014)" />
+     style="opacity:0.8;filter:url(#filter3825)" />
 </svg>
