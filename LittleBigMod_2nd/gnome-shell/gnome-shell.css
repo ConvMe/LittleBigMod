@@ -242,8 +242,6 @@ StScrollBar StButton#vhandle:active {
 .popup-menu-item:active {
     background-color: rgba(128, 128, 128, 0.5);
     outline: 1px rgba(255, 255, 255, 0.8);
-    outline-left: 0px;
-    outline-right: 0px;
     transition-duration: 150;
 }
 
@@ -696,13 +694,17 @@ StScrollBar StButton#vhandle:active {
     spacing: 13px;
     /*background-image: url("status_chooser_user-ltr.svg");
     background-size: cover;*/
-    /*border-bottom: 1em transparent;
-    background-gradient-start: rgba(205, 205, 205, 0.0);
+    /*border-bottom: 1em transparent;*/
+    /*background-gradient-start: rgba(205, 205, 205, 0.0);
     background-gradient-end: rgb(195, 195, 195);
     background-gradient-direction: vertical;
     box-shadow: inset 0px -1px 0px rgb(240, 240, 240);*/
     /*border-radius: 0 0 5em 5em;*/
-    padding-bottom: 1em;
+    /*box-shadow: inset 0px -1px 0px 0px rgb(240, 240, 240);*/
+    border-bottom: 3px;
+    border-image: url("status-chooser-user.svg") 11 11;
+    background-color: rgb(145,145,145);
+    /*padding-top: 1px;*/
 }
 
 /*
@@ -717,17 +719,19 @@ StScrollBar StButton#vhandle:active {
 }
 
 .status-chooser-user-icon {
-    border: 1px rgba(240, 240, 240, 0.7); /* transparent;*/
-    border-radius: 5px;
-    box-shadow: inset 0px 0px 3px 0px rgba(64, 64, 64, 0.3);
+    border-left: 1px;
+    border-right: 1px;
+    border-color: rgba(240, 240, 240, 0.7); /* transparent;*/
+    /* border-radius: 5px;*/
+    /*box-shadow: inset 0px 0px 3px 0px rgba(64, 64, 64, 0.3);*/
     width: 48pt;
     height: 48pt;
 }
 
 .status-chooser-user-icon:hover {
-    border: 1px solid #76b0ec;
-    background-color: rgba(255, 255, 255, 0.10);
-    box-shadow: 0px 0px 6px 0px #76b0ec;
+    /*border-color: #76b0ec;*/
+    /*background-color: rgba(255, 255, 255, 0.10);*/
+    /*box-shadow: 0px 0px 6px 0px #76b0ec;*/
 }
 
 .status-chooser-user-name {
@@ -738,8 +742,17 @@ StScrollBar StButton#vhandle:active {
     min-width: 9.6em; /*120pt;*/
 }
 
+.status-chooser .popup-menu-item:active {
+    color: rgba(240, 240, 240, 0.7);
+}
+
 .status-chooser-combo {
+    outline: 0px !important;
     border: 1px solid transparent;
+}
+
+.status-chooser-combo:active {
+    background-color: transparent !important;
 }
 
 .status-chooser-combo.popup-combo-menu {
@@ -751,6 +764,7 @@ StScrollBar StButton#vhandle:active {
 
 .status-chooser-status-item,
 .status-chooser-combo .popup-combobox-item {
+    outline: 0px !important;
     spacing: .4em;
 }
 
@@ -1669,7 +1683,7 @@ StScrollBar StButton#vhandle:active {
 .notification {
     border: 10px transparent;
     border-top: 1px;
-    border-image: url("./borders/round_border_notification.svg") 21 21;
+    border-image: url("./borders/round_border_notification.svg") 18 18; /* 21 21 */
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px -1px rgba(0, 0, 0, 1);
     padding: 5px 10px 5px 5px;
@@ -1694,6 +1708,7 @@ StScrollBar StButton#vhandle:active {
 .notification-unexpanded {
     /* We want to force the actor at a specific size, irrespective
        of its minimum and preferred size, so we override both */
+
     min-height: 36px;
     height: 36px;
 }
