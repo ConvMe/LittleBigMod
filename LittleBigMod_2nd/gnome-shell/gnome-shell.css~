@@ -673,7 +673,7 @@ StScrollBar StButton#vhandle:active {
 }
 
 #panelActivities:overview {
-    background-image: url("gnome-white.svg");
+    background-image: url("gnome.svg");
 }
 
 .panel-menu {
