@@ -30,7 +30,7 @@ LittleBigMod
 </table>
 <h3>Screenshots</h3>
 <p>
-<img src="http://250kb.de/u/130411/j/ZCKpjW5RYa50.jpg" /><br />
+<img src="http://250kb.de/u/130426/j/fyRORTOI1uXg.jpg" /><br />
 </p>
 <h3>Description</h3>
 <p>This is the LittleBigMod, a gnome-shell theme I am working on for a couple of months. You can find further informations and other screenshots at http://convme.deviantart.com.</p>
