@@ -1,4 +1,4 @@
-/* Copyright 2012, ConvMe
+/* Copyright 2013, ConvMe
  *
  * Portions adapted from Mx's data/style/default.css
  *   Copyright 2009 Intel Corporation
@@ -97,7 +97,7 @@ StScrollBar StButton#vhandle {
 }
 
 StScrollBar StButton#hhandle {
-    border: 1px solid rgba(128, 128, 128, 0.5);
+    border: 1px solid rgb(64, 64, 64);
     background-gradient-start: rgb(185, 185, 185);
     background-gradient-end: rgb(240, 240, 240);
     background-gradient-direction: vertical;
@@ -116,7 +116,9 @@ StScrollBar StButton#vhandle:hover {
 
 StScrollBar StButton#hhandle:active,
 StScrollBar StButton#vhandle:active {
-    background-color: #3465a4;
+    /*background-color: #3465a4;*/
+    background-gradient-start: #5ea4ec;
+    background-gradient-end: #76b0ec;
 }
 
 /* Check Boxes */
@@ -773,13 +775,11 @@ StScrollBar StButton#vhandle:active {
 }
 
 /* Overview */
-
 #overview {
     border: 1px rgb(64, 64, 64);
     border-radius: 10px;
-    background-image: url("overview.png");
-    background-size: cover;
     /*spacing: 0.001em;*/ /* 12px; */
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 .window-caption {
@@ -943,6 +943,8 @@ StScrollBar StButton#vhandle:active {
 
 #viewSelector {
     spacing: 1.2em;
+    background-image: url("overview.png");
+    background-size: cover;
 }
 
 /* Search Box */
