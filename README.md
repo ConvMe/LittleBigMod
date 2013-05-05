@@ -30,10 +30,10 @@ LittleBigMod
 </table>
 <h3>Screenshots</h3>
 <p>
-<img src="http://250kb.de/u/130426/j/fyRORTOI1uXg.jpg" /><br />
+<img src="http://250kb.de/u/130506/j/dzxq85RKQJSd.jpg" /><br />
 </p>
 <h3>Description</h3>
-<p>This is the LittleBigMod, a gnome-shell theme I am working on for a couple of months. You can find further informations and other screenshots at http://convme.deviantart.com.</p>
-<p>The master-branch represents the latest development state for the most common version of the gnome-shell. Themes created for older versions of the gnome-shell can be found by swithcing the branches.</p>
+<p>This is the LittleBigMod, a gnome-shell theme I am working on for a couple of months. You can find further informations and other screen shots at http://convme.deviantart.com.</p>
+<p>The master-branch represents the latest development state for the most common version of the gnome-shell. Themes created for older versions of the gnome-shell can be viewed by switching the branches.</p>
 <h3>License</h3>
 <p>LGPL</p>
