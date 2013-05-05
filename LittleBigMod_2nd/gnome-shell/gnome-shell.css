@@ -2523,17 +2523,17 @@ StScrollBar StButton#vhandle:active {
 .end-session-dialog-app-list-item-icon {
     background-color: rgb(220, 220, 220);
     border: 1px solid rgba(128, 128, 128, 0.5);
-    border-right: 1px;
+    /*border-right: 1px;*/
     border-radius: 7px 0px 0px 7px;
     /*box-shadow: inset 0px 1px 1px rgba(54, 54, 54, 0.7);*/
     padding: 4px 8px;
 }
 
 .end-session-dialog-app-list-item-icon:rtl {
-    border-right: 0px;
-    border-left: 1px;
+    /*border-right: 0px;
+    border-left: 1px;*/
     border-radius: 0px 7px 7px 0px;
-    padding: 4px 4px 4px 17px;
+    /*padding: 4px 4px 4px 17px;*/
 }
 
 .end-session-dialog-app-list-item-name {
@@ -2715,6 +2715,11 @@ StScrollBar StButton#vhandle:active {
     padding: 3px 5px 2px;
 }
 
+.prompt-dialog-password-label:rtl {
+    border-right: 1px;
+    border-left: 0px;
+}
+
 .prompt-dialog-password-entry {
     selection-background-color: rgba(255, 255, 255, 0.33);
     selected-color: #76b0ec;
@@ -2749,10 +2754,10 @@ StScrollBar StButton#vhandle:active {
     color: #76b0ec;
 }
 
-
 .hidden {
     color: rgba(0,0,0,0);
 }
+
 .prompt-dialog-null-label {
     color: rgba(0,0,0,0);
 }
@@ -2785,7 +2790,7 @@ StScrollBar StButton#vhandle:active {
 
 .polkit-dialog-user-icon {
     /*border: 2px solid #8b8b8b;*/
-    border-radius: 5px 0 0 0;
+    border-radius: 5px 0px 0px 0px;
     background-size: contain;
     width: 48px;
     height: 48px;
@@ -2795,6 +2800,10 @@ StScrollBar StButton#vhandle:active {
     border-left: 11px; 
     border-right: 11px;
     border-color: rgb(220, 220, 220);
+}
+
+.polkit-dialog-user-icon:rtl {
+    border-radius: 0px 5px 0px 0px;
 }
 
 /* Network Agent Dialog */
