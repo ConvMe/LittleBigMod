@@ -21,7 +21,7 @@ LittleBigMod
 <table width="100%">
   <tr>
     <td width="20%"><b>LittleBigMod:</b></td>
-    <td>v1.5 for Gnome 3.4.x</td>
+    <td>v1.5.1 for Gnome 3.4.x</td>
   </tr>
   <tr>
     <td><b>LittleBigMod_2nd:</b></td>
@@ -36,4 +36,4 @@ LittleBigMod
 <p>This is the LittleBigMod, a gnome-shell theme I am working on for a couple of months. You can find further informations and other screen shots at http://convme.deviantart.com.</p>
 <p>The master-branch represents the latest development state for the most common version of the gnome-shell. Themes created for older versions of the gnome-shell can be viewed by switching the branches.</p>
 <h3>License</h3>
-<p>LGPL</p>
+<p>GPL v3</p>
