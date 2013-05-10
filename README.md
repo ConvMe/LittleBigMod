@@ -34,6 +34,6 @@ LittleBigMod
 </p>
 <h3>Description</h3>
 <p>This is the LittleBigMod, a gnome-shell theme I am working on for a couple of months. You can find further informations and other screen shots at http://convme.deviantart.com.</p>
-<p>The master-branch represents the latest development state for the most common version of the gnome-shell. Themes created for older versions of the gnome-shell can be viewed by switching the branches.</p>
+<p>The master-branch represents the latest development state for the most common version of the gnome-shell. Themes created for older versions of the gnome-shell can be found in the OldStuff folder.</p>
 <h3>License</h3>
 <p>GPL v3</p>
