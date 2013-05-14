@@ -69,7 +69,7 @@ stage {
 .run-dialog-label,
 .run-dialog-error-label {
     font-size: 8pt;
-}.login-dialog-session-list-button
+}
 
 /* small bold */
 .dash-label,
@@ -292,6 +292,7 @@ StScrollBar StButton#vhandle:active {
 }
 
 .popup-alternating-menu-item:alternate {
+    font-weight: bold;
     color: #76b0ec;
 }
 
@@ -2475,10 +2476,10 @@ StScrollBar StButton#vhandle:active {
 }
 
 .lightbox {
-    background-gradient-direction: radial;
+    /*background-gradient-direction: radial;
     background-gradient-end: rgba(0, 0, 0, 0.7);
-    background-gradient-start: rgba(0, 0, 0, 0.8);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-gradient-start: rgba(0, 0, 0, 0.8);*/
+    background-color: rgba(0, 0, 0, 1);
     /*background-image: url("overview.png");
     background-size: cover;*/
 }
@@ -3276,10 +3277,10 @@ StScrollBar StButton#vhandle:active {
 
 .screen-shield-arrows Gjs_Arrow {
     color: white;
-    width: 80px;
-    height: 48px;
-    -arrow-thickness: 12px;
-    -arrow-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    width: 100px; /* 80px */
+    height: 23px; /* 48px */
+    -arrow-thickness: 2px; /* 12px */
+    -arrow-shadow: 0px 1px 1px rgba(0,0,0,0.6);
 }
 
 .screen-shield-contents-box {
