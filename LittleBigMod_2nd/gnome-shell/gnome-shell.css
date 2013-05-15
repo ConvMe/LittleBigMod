@@ -243,7 +243,6 @@ StScrollBar StButton#vhandle:active {
     padding: 1em 0em;
     border: 1px solid #5f5f5f;
     border-radius: 9px;
-    border: 1px green;
 }
 
 /* The remaining popup-menu sizing is all done in ems, so that if you
@@ -563,7 +562,6 @@ StScrollBar StButton#vhandle:active {
 #searchEntry {
     color: rgb(128, 128, 128);
     caret-color: rgb(128, 128, 128);
-    border: 1px solid red;
 }
 
 #searchEntry:focus {
@@ -2740,7 +2738,7 @@ StScrollBar StButton#vhandle:active {
 
 .prompt-dialog-password-box {
     spacing: 0em;
-    padding-bottom: 0em;
+    padding: 0em;
 }
 
 .prompt-dialog-password-label {
@@ -2848,12 +2846,13 @@ StScrollBar StButton#vhandle:active {
 
 .network-dialog-secret-table {
     spacing-rows: 15px;
-    spacing-columns: 1em;
+    spacing-columns: 0em; /* 1em; */
+    padding-bottom: 27px;
 }
 
 .keyring-dialog-control-table {
     spacing-rows: 15px;
-    spacing-columns: 1em;
+    spacing-columns: 0em; /* 1em; */
 }
 
 /* Magnifier */
