@@ -301,6 +301,10 @@ StScrollBar StButton#vhandle:active {
     -slider-height: 0.14em;
     -slider-active-background-color: rgb(225, 225, 225);
     -slider-handle-radius: 0.3em;
+    -slider-border-width: 0px; /*dummy*/
+    -slider-background-color: rgb(225, 225, 225); /*dummy*/
+    -slider-border-color: rgb(225, 225, 225); /*dummy*/
+    -slider-active-border-color: rgb(225, 225, 225); /*dummy*/
 
     background-gradient-end: rgb(195, 195, 195);
     background-gradient-start: rgb(205, 205, 205);
@@ -644,7 +648,7 @@ StScrollBar StButton#vhandle:active {
     -panel-corner-radius: 10px;
     -panel-corner-background-color: rgba(0, 0, 0, 0.92);
     -panel-corner-border-width: 1px;
-        -panel-corner-border-color: rgb(64, 64, 64);
+    -panel-corner-border-color: rgb(64, 64, 64);
 }
 
 .panel-corner:active,
@@ -679,6 +683,8 @@ StScrollBar StButton#vhandle:active {
 }
 
 .app-menu-icon {
+    width: 0px;
+    height: 0px;
     /*width: 24px;
     height: 24px;*/
 }
@@ -715,14 +721,14 @@ StScrollBar StButton#vhandle:active {
 
 #panelActivities {  
     color: rgba(0, 0, 0, 0);
-    width: 36px;
+    width: 2.7em; /*36px;*/
     background-image: url("gnome.svg");
-    background-position: center top;
+/*    background-position: center top;*/
     background-repeat:no-repeat;
     background-size: contain;
 }
 
-#panelActivities:focus,
+panelActivities:focus,
 #panelActivities:active,
 #panelActivities:hover {
     background-image: url("gnome-white.svg");
@@ -842,7 +848,7 @@ StScrollBar StButton#vhandle:active {
 
 .workspace-controls {
     visible-width: 1.6em; /* Amount visible before hovering */
-    padding: 0.3em 0px 1em 1.6em; /*23px;*/
+    padding: 0.3em 0em 1em 1.6em; /*23px;*/
     /*background-image: url("hand-ltr.svg");
     background-size: contain;*/
     border-image: url("hand-ltr.svg") 60 0 100 100;
@@ -1126,12 +1132,12 @@ StScrollBar StButton#vhandle:active {
 .icon-grid {
     spacing: 38px;
     padding: 6px;
-    -shell-grid-horizontal-item-size: 9.1em;
-    -shell-grid-vertical-item-size: 9.1em;
+    -shell-grid-horizontal-item-size: 9.1em; /*118px;*/
+    -shell-grid-vertical-item-size: 9.1em; /*118px;*/
 }
 
 .icon-grid .overview-icon {
-    icon-size: 7.8em;
+    icon-size: 7.8em; /*96px*/
 }
 
 .search-section-results .icon-grid {
@@ -2771,13 +2777,15 @@ StScrollBar StButton#vhandle:active {
     transition-duration: 150;
 }
 
-/*.prompt-dialog-password-entry .capslock-warning {
+/*
+.prompt-dialog-password-entry .capslock-warning {
     border: 0px;
     width: 16px;
     height: 16px;
     icon-size: 14px;
     warning-color: #999;
-}*/
+}
+*/
 
 .prompt-dialog-null-label,
 .prompt-dialog-info-label,
@@ -3052,7 +3060,7 @@ StScrollBar StButton#vhandle:active {
 }
 
 .login-dialog-user-list-item-text-box {
-    padding: 0 0.5em;
+    padding: 0em 0.5em;
 }
 
 .login-dialog-user-list-item .login-dialog-timed-login-indicator {
