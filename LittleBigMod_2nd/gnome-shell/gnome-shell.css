@@ -1804,7 +1804,7 @@ panelActivities:focus,
     box-shadow: inset 0px -1px transparent;   
 }
 
-.summary-notification-stack-scrollview,
+.summary-boxpointer .summary-notification-stack,
 .summary-boxpointer #summary-right-click-menu {
     border: 1px rgb(240, 240, 240);
     border-radius: 10px;
@@ -2028,16 +2028,16 @@ panelActivities:focus,
 .chat-group-sent, 
 .chat-group-received {
     background-gradient-direction: vertical;
-    background-gradient-end: rgb(14, 14, 14);
-    background-gradient-start: rgb(24, 24, 24);
+    background-gradient-end: rgb(44, 44, 44);
+    background-gradient-start: rgb(54, 54, 54);
     box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.85);
     border-radius: 4px;
     padding: 8px 0px;
 }
 
 .chat-group-sent {
-    background-gradient-end: rgb(24, 24, 24);
-    background-gradient-start: rgb(34, 34, 34);
+    background-gradient-end: rgb(54, 54, 54);
+    background-gradient-start: rgb(64, 64, 64);
 }
 
 .summary-boxpointer .chat-group-sent,
