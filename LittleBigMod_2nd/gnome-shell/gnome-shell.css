@@ -3052,7 +3052,7 @@ panelActivities:focus,
 .login-dialog-user-list-item:hover, 
 .login-dialog-user-list:expanded .login-dialog-user-list-item:focus {
     background-color: rgba(255,255,255,0.33);
-    border: 1px #76b0ec;
+    border: 1px rgb(240, 240, 240); /*#76b0ec;*/
 }
 
 .login-dialog-user-list:expanded .login-dialog-user-list-item:logged-in {
@@ -3312,8 +3312,8 @@ panelActivities:focus,
 
 #screenShieldNotifications {
     border-radius: 8px;
-    background-color: rgba(0.0, 0.0, 0.0, 0.9);
-    border: 2px solid #868686;
+    background-color: rgba(0, 0, 0, 0.83); 
+    border: 1px rgb(220, 220, 220); /* #868686; */
     max-height: 500px;
     padding: 18px 0;
     box-shadow: .5em .5em 20px rgba(0, 0, 0, 0.5);
