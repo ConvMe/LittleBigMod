@@ -217,6 +217,10 @@ StScrollBar StButton#vhandle:active {
     outline-color: rgba(255, 255, 255, 0.5);
 }
 
+.popup-sub-menu .popup-menu-item:insensitive {
+    color: #e0e0e0;
+}
+
 .popup-sub-menu:scrolled .popup-menu-item:ltr {
     /*padding-right: 0em;*/
 }
@@ -272,7 +276,7 @@ StScrollBar StButton#vhandle:active {
 }
 
 .popup-menu-item:insensitive {
-    color: #bbb;
+    color: #999;
 }
 
 .popup-image-menu-item {
@@ -292,7 +296,6 @@ StScrollBar StButton#vhandle:active {
 
 .popup-alternating-menu-item:alternate {
     font-weight: bold;
-    color: #76b0ec;
 }
 
 .popup-slider-menu-item {
@@ -828,6 +831,10 @@ panelActivities:focus,
 .status-chooser-combo .popup-combobox-item {
     outline: 0px !important;
     spacing: .4em;
+}
+
+.status-chooser-combo .popup-menu-item:insensitive {
+    color: #bbb;
 }
 
 .system-status-icon {
