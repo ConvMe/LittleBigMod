@@ -25,7 +25,7 @@ LittleBigMod
   </tr>
   <tr>
     <td><b>LittleBigMod_2nd:</b></td>
-    <td>v1.6 for Gnome 3.6.x</td>
+    <td>v1.7 developer for Gnome 3.8.x </td>
   </tr>
 </table>
 <h3>Screenshots</h3>
